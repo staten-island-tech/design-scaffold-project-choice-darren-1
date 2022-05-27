@@ -1,0 +1,94 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(26, 196, 190);
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.Jacksonville {
+  height: 20rem;
+  margin-bottom: 10rem;
+}
+
+.cities-img {
+  height: 100%;
+  width: 40%;
+  object-fit: cover;
+}
+
+.cities-desc-container {
+  text-align: right;
+  width: 50%;
+  margin-left: 40rem;
+  margin-top: -20rem;
+}
+
+.cities-desc-container header {
+  margin-right: 20rem;
+  font-size: 2rem;
+}
+
+.cities-desc {
+  font-size: 1.5rem;
+}
+
+.Miami {
+  height: 20rem;
+  margin-bottom: 10rem;
+}
+
+.Orlando {
+  height: 20rem;
+  margin-bottom: 10rem;
+}
+
+.back {
+  background-image: url();
+}
