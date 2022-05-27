@@ -35,12 +35,9 @@ li a:hover {
   background-color: #111;
 }
 ul {
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
-}
-body {
-  background-color: lightblue;
 }
 h1 {
   text-align: center;
@@ -64,7 +61,7 @@ h3 {
 }
 
 .cities-desc-container {
-  text-align: right;
+  text-align: left;
   width: 50%;
   margin-left: 40rem;
   margin-top: -20rem;
@@ -88,7 +85,86 @@ h3 {
   height: 20rem;
   margin-bottom: 10rem;
 }
+.Walt-Disney-World {
+  height: 20rem;
+  margin-bottom: 10rem;
+}
 
-.back {
-  background-image: url();
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  grid-template-rows: 30rem;
+  margin-bottom: 10px;
+}
+
+.grid-text {
+  padding: 10px;
+  margin-bottom: 5rem;
+}
+
+.attractions-title {
+  text-align: left;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.Attractions-desc {
+  font-size: 24px;
+}
+
+.grid-image {
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.attractions-img {
+  height: auto;
+  width: 75%;
+  margin-top: 5rem;
+}
+
+.restaurant-title {
+  text-align: left;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.restaurants-desc {
+  font-size: 24px;
+}
+
+.restaurants-img {
+  height: auto;
+  width: 75%;
+}
+
+.backgroundimg {
+width: 1980px;
+height: 1080px;
+object-fit: cover;
+}
+
+.backgroundcontent {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.backgroundcontent h1 {
+  color: white;
+  font-size: 8rem;
+}
+
+.footer {
+  height: 10rem;
+  background-color: rgb(27, 203, 197);
+}
+body {
+  background: linear-gradient(141deg,#0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.section-title {
+  font-size: 32px;
 }
